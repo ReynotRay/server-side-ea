@@ -6,16 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ReynotRay/server-side-ea.git"
-  },
-  "author": "",
+  "author": "Rey",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ReynotRay/server-side-ea/issues"
-  },
-  "homepage": "https://github.com/ReynotRay/server-side-ea#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0"
