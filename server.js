@@ -1,22 +1,23 @@
 var express = require('express');
 
 var app = express();
+
 //middleware 
 app.use(express.static('public'));
 
 app.get('/', function(request, response) {
 
-    response.sendFile(__dirname + '/public/index.html');
+    response.sendFile(__dirname + '/index.html');
 
 });
 
 app.get('/users', function(request, response) {
     response.status(200).json([{
         name: 'Rey',
-        character: 'shits'
+        character: 'Dicks'
     }, {
-        name: 'Alex',
-        character: 'Asshole'
+        name: 'Rob',
+        character: 'more Dicks'
     }]);
 });
 
